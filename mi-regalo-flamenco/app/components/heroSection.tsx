@@ -61,11 +61,11 @@ export default function HeroSection() {
           <Typewriter
             options={{
               strings: [
-                'Mi amor ❤️',
-                'Mi vida 💕',
-                'Mi todo ✨',
-                'Mi princesa 👑',
-                'Mi felicidad 🌟'
+                'Mi gorda ❤️',
+                'Mi listerine 💕',
+                'Mi machacona ✨',
+                'Mi payica 👑',
+                'Mi putonga 🌟'
               ],
               autoStart: true,
               loop: true,

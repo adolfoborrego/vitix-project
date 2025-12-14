@@ -4,12 +4,15 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const photos = [
-  { src: '/photos/foto1.jpg', alt: 'Nosotros 1' },
-  { src: '/photos/foto2.jpg', alt: 'Nosotros 2' },
-  { src: '/photos/foto3.jpg', alt: 'Nosotros 3' },
-  { src: '/photos/foto4.jpg', alt: 'Nosotros 4' },
-  { src: '/photos/foto5.jpg', alt: 'Nosotros 5' },
-  { src: '/photos/foto6.jpg', alt: 'Nosotros 6' },
+  { src: '/photos/feria-beso.jpg', alt: 'Nosotros 1' },
+  { src: '/photos/coche-raro.jpg', alt: 'Nosotros 2' },
+  { src: '/photos/feria-grunones.jpg', alt: 'Nosotros 3' },
+  { src: '/photos/san-fernando-beso-pie.jpg', alt: 'Nosotros 4' },
+  { src: '/photos/chiringuito-cigarrito.jpg', alt: 'Nosotros 5' },
+  { src: '/photos/san-fernando-ayunta-1.jpg', alt: 'Nosotros 6' },
+  { src: '/photos/feria-abrazo-atras.jpg', alt: 'Nosotros 7' },
+  { src: '/photos/san-fernando-claudia.jpg', alt: 'Nosotros 8' },
+  { src: '/photos/chiringutio-copita.jpg', alt: 'Nosotros 9' },
 ];
 
 export default function Gallery() {

@@ -2,14 +2,12 @@
 import { motion } from 'framer-motion';
 
 const reasons = [
-  { emoji: '😊', title: 'Tu Sonrisa', text: 'Tu sonrisa ilumina hasta mis días más oscuros' },
-  { emoji: '💫', title: 'Tu Magia', text: 'Haces que cada momento sea especial y único' },
+  { emoji: '😊', title: 'Tu Sonrisa', text: 'Tu sonrisa es la cosita más bonita del mundo' },
+  { emoji: '💫', title: 'Tu Humor', text: 'Haces que me ría en todo momento y que los momentos sean especiales y únicos' },
   { emoji: '🌟', title: 'Mi Favorita', text: 'Eres mi persona favorita en todo el mundo' },
   { emoji: '💝', title: 'Tu Bondad', text: 'Tu corazón me inspira a ser mejor cada día' },
   { emoji: '🎭', title: 'Tu Risa', text: 'Me haces reír como nadie más puede hacerlo' },
-  { emoji: '🌺', title: 'Tu Belleza', text: 'Eres hermosa por dentro y por fuera' },
-  { emoji: '🦋', title: 'Mi Mejor Yo', text: 'Contigo soy la mejor versión de mí mismo' },
-  { emoji: '🌈', title: 'Tu Color', text: 'Traes alegría y color a mi vida' },
+  { emoji: '😡', title: 'Tu Enfado', text: 'Eso si que me tiene un poco cansado, pero siempre mejorando (es broma jjj)' },
 ];
 
 export default function LoveReasons() {

@@ -66,7 +66,7 @@ export default function GiftReveal() {
             transition={{ delay: 0.3 }}
             className="text-4xl md:text-6xl font-bold text-rose-600"
           >
-            ¡Tu Traje Flamenco! 💃✨
+            ¡Tu Trajecito de Flamenca! 💃✨
           </motion.h3>
           
           <motion.div
@@ -76,8 +76,8 @@ export default function GiftReveal() {
             className="relative w-full aspect-square md:aspect-video mx-auto rounded-3xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="/photos/traje-flamenco.png"
-              alt="Tu hermoso traje flamenco"
+              src="/photos/traje-flamenco-1.png"
+              alt="Tu hermoso traje de flamenca"
               fill
               className="object-cover"
               priority
@@ -95,12 +95,12 @@ export default function GiftReveal() {
               Para la mujer más hermosa del mundo 🌹
               <br />
               <br />
-              Porque mereces brillar como la estrella que eres.
-              Este traje flamenco es para que luzcas espectacular
-              y bailes con toda la alegría que llevas dentro.
+              Porque te lo mereces todo y más, y se
+              todo lo que llevas queriendo un traje de flamenca,
+              disfrútalo muchísimo en la feria, te adoroooo.
               <br />
               <br />
-              ¡Feliz cumpleaños, mi amor! ❤️✨
+              ¡Feliz cumpleaños chochonaaa! ❤️✨
             </p>
           </motion.div>
         </motion.div>

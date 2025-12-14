@@ -38,13 +38,13 @@ export default function Home() {
             </h2>
             <div className="space-y-6 text-lg md:text-xl text-gray-800 leading-relaxed">
               <p className="text-center">
-                Hoy es un día muy especial, porque celebramos la existencia de la persona 
-                más maravillosa que he conocido.
+                Hoy es un día muy especial, porque celebramos el cumpleaños de la persona
+                más bonita del mundo, jjj saludos.
               </p>
               <p className="text-center">
-                Cada día a tu lado es un regalo que atesoro en mi corazón. 
-                Tu sonrisa ilumina mis días más oscuros, tu risa es mi melodía favorita, 
-                y tu amor es mi mayor bendición.
+                Cada día a tu lado es un regalo que atesoro en mi corazón (mentira buaghhh). 
+                Tu sonrisa ilumina coche funebre, tu risa es mi melodía favorita, cuando quiero arrcancarme los oidos, 
+                y tu iqos es el peo que ilumina mi vida.
               </p>
               <p className="text-center font-semibold text-2xl text-rose-600">
                 Te amo más de lo que las palabras pueden expresar. 
@@ -100,7 +100,7 @@ export default function Home() {
               Por hacerme el hombre más feliz del mundo
             </p>
             <p className="text-lg text-gray-700">
-              Por ser mi compañera, mi amor, mi todo
+              Por ser mi compañera y por cuidarme tods los días
             </p>
             <div className="text-6xl mt-6 animate-pulse-slow">
               ❤️

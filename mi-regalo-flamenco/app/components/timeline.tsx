@@ -5,31 +5,31 @@ import { useRef } from 'react';
 
 const timelineEvents = [
   {
-    date: '3 Jun 2023',
+    date: 'Abril 2023',
     title: 'Nuestro Primer Encuentro',
-    description: 'El día que empezó nuestra historia de amor',
+    description: 'El día que empezó nuestra historia de amor, un poco falso pero jjj',
     emoji: '💘',
     color: 'rose'
   },
   {
-    date: 'Jul 2023',
+    date: 'Abril 2023 (FERIA)',
     title: 'Primeros Momentos Juntos',
-    description: 'Descubriendo lo especial que eres',
+    description: 'Descubriendo lo impresionante que eres y como sin conocerme me cuidaste',
     emoji: '🌹',
     color: 'pink'
   },
   {
-    date: 'Ago 2023',
-    title: 'Me Enamoré de Ti',
-    description: 'Cuando supe que eras la indicada',
+    date: 'Agosto 2024',
+    title: 'No te agunto mas',
+    description: 'FUERAAAAAAAAAAAAA, es broma jjj',
     emoji: '❤️',
     color: 'red'
   },
   {
-    date: '2024',
+    date: '6 Dec 2025',
     title: 'Aventuras Juntos',
-    description: 'Cada momento a tu lado es especial',
-    emoji: '✈️',
+    description: 'Cada momento a tu lado es especial (NO volvamos a San Fernando, por favor)',
+    emoji: '🚂',
     color: 'rose'
   },
   {

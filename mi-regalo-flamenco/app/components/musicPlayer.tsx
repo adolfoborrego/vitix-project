@@ -7,15 +7,28 @@ export default function MusicPlayer() {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   const toggleMusic = () => {
-    if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.pause();
-      } else {
-        audioRef.current.play();
+  if (audioRef.current) {
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    } else {
+      const playPromise = audioRef.current.play();
+      
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => {
+            // Reproducción exitosa
+            setIsPlaying(true);
+          })
+          .catch((error) => {
+            // Reproducción bloqueada o interrumpida
+            console.error('Error al reproducir:', error);
+            setIsPlaying(false);
+          });
       }
-      setIsPlaying(!isPlaying);
     }
-  };
+  }
+};
 
   return (
     <>
